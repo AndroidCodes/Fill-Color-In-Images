@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.androidcodes.fillcolorinimages.ui.MainActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Let's Start"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@color/colorPrimaryDark" />
+
+</LinearLayout>
